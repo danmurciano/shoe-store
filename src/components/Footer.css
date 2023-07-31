@@ -22,11 +22,11 @@
     height: 21px;
 }
 
-
 .social-icons img {
     margin-left: 16px;
     float: right;
     opacity: 0.85;
+    cursor: pointer;
 }
 
 .social-icons img:hover {

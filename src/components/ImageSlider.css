@@ -1,0 +1,82 @@
+.slider-nav {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slider-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+}
+
+
+.index-div {
+    display: inline-block;
+    width: calc(100% - 80px);
+}
+
+.slider-index {
+    margin: auto;
+    display: inline-flex;
+}
+
+
+.chevrons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chevron-left,
+  .chevron-right {
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .chevron-left {
+    position: relative;
+    left: 8px;
+  }
+  
+  .chevron-right {
+    position: relative;
+    right: 8px;
+  }
+  
+  .chevron-left.inactive,
+  .chevron-right.inactive {
+    opacity: 0.3;
+  }
+  
+  .chevron-left.active,
+  .chevron-right.active {
+    color: var(--black);
+  }
+
+.circle-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--black);
+    opacity: 0.3;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .circle.active {
+    width: 12px;
+    height: 12px;
+    background-color: var(--black);
+    opacity: 1;
+  }

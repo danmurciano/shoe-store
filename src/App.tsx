@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage'; 
+import CartPage from './pages/CartPage';
+import ProductPage from './pages/ProductPage';
+import { CartProvider } from './contexts/cartContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
+  document.title ="SUN CO.";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+        <Router>
+            <div>
+              <Header />
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/products/:productId" element={<ProductPage />} />
+                <Route path="/cart" element={<CartPage />} />
+              </Routes>
+              <Footer />
+            </div>
+        </Router>
+    </CartProvider>
   );
-}
+};
 
 export default App;

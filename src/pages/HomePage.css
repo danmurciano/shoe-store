@@ -1,0 +1,56 @@
+.hero-div {
+    background-color: var(--hero-bg);
+    height: 427px;
+    width: 1116px;
+    margin: auto;
+    border-radius: 24px;
+    padding: 64px;
+    margin-top: 30px;
+  }
+  
+  .hero-div h2 {
+    color: var(--orange);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  
+  .hero-div h1 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-div p {
+    color: var(--dark-grey);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-img {
+    height: 321px;
+    width: 490px;
+  }
+  
+  .hero-btn {
+    margin-bottom: 40px;
+    padding: 18.5px 80px;
+  }
+  
+  .product-list {
+    width: 1116px;
+    margin: 80px auto;
+  }
+
+  .product-list h3 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+  }

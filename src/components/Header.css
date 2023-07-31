@@ -1,0 +1,54 @@
+.header-div {
+    border-bottom: 1px solid var(--line-light-grey);
+}
+
+.header {
+    max-width: 1148px;
+    margin: auto;
+    padding: 18px 16px;  
+}
+
+.brand-logo:hover {
+    filter: brightness(1.1);
+}
+
+.cart-button {
+    float: right;
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8.5px 17px;
+    position: relative;
+    bottom: 6px;
+}
+
+.cart-button:hover {
+    background-color: inherit;
+    color: var(--black);
+    border: 1px solid var(--dark-grey);
+}
+
+.cart-button img {
+    margin-right: 6px;
+    position: relative;
+    bottom: 2px;
+    right: 6px;
+}
+
+.cart-item-count {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+}

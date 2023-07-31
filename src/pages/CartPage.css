@@ -1,0 +1,121 @@
+.cart-items {
+    width: 582px;
+}
+
+.Cart h2 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 32px;;
+}
+
+.cart-item {
+    display: flex;
+    margin-top: 32px;
+    border-bottom: 1px var(--line-light-grey) solid;
+}
+
+.cart-item img {
+    height: 165px;
+    width: 165px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.cart-item h4 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.cart-item h5 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.cart-item p {
+    color: var(--dark-grey);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.item-bottom {
+    margin-top: 58px;
+    display: flex;
+}
+
+.remove-button {
+    border: none;
+    background-color: inherit;
+    color: var(--dark-grey);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-left: 30px;
+}
+
+.remove-button:hover {
+    color: var(--black);
+}
+
+.cart-summary h4 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+.cart-summary h3 {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.cart-summary {
+    border-radius: 16px;
+    width: 460px;
+    max-width: 100%;
+    float: right;
+    padding: 12px;
+}
+
+.cart-summary span {
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    float: right;
+}
+
+.summary-top {
+    border-bottom: 1px var(--line-light-grey) solid;
+    padding: 24px;
+}
+
+.summary-bottom {
+    padding: 24px;
+}
+
+.discount {
+    color: var(--orange) !important;
+}
+
+.checkout-btn {
+    margin-top: 40px;
+    height: 60px;
+    width: 100%;
+}

@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Demo Web Store App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo web store app with basic frontend functionality for products and cart. The app is built using React with TypeScript. It was built using 'create-react-app'. Please note that for a real-world scalable app, more complex logic and state management might be required.
+
+## Features
+
+- View a list of products available in the store.
+- Add products to the cart.
+- Change the quantity of products in the cart using the Quantity Selector.
+- Remove products from the cart.
+- The cart is saved in the local storage, allowing the items to persist across page reloads.
+
+## Limitations
+- The product data is pulled from a static local product list, rather than from a database. In a real-world scenario, integrating a backend with a database would be necessary to handle product management and user authentication.
+- The app does not include user authentication or user-specific functionality, as it is a basic demo with a focus on frontend features.
+- At this point, the UI works for desktops. It is not designed for mobile and other screens that are smaller than 1100px.
+- Currently there are a few tests for the Product Page "Add to Cart" functionality. Tests for the Cart Page have not been implemented at this point.
+
+## Potential Improvements
+- Make the UI responsive for smaller screen sizes.
+- Implement a backend with a database to handle product data, user authentication, and user-specific functionalities.
+- Enhance the cart management with server-side handling to ensure cart items persist across different devices.
+- Implement a "Checkout" functionality to create orders.
+- Add product categories and sorting/filtering options.
+- Add admin functionality for creating and editing products, viewing orders and users.
+- Add more comprehensive tests to cover various components and user interactions.
+
+
 
 ## Available Scripts
 
@@ -39,8 +64,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
